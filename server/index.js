@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://dev-tech-pink.vercel.app/",
+		origin:"https://dev-tech-pink.vercel.app",
 		credentials:true,
 	})
 )
